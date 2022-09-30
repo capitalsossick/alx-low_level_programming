@@ -1,1 +1,1 @@
-This is project done during the ALX S.E training. the aim and objectives is tp learn about argc and argv
+Module of Low-level programming and algorithm, carried out during S.E training at ALX school
