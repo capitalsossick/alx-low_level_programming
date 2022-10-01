@@ -1,17 +1,12 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
- * _puts_recursion - prints a string, followed by a new line.
- * @s: string
- * Return: no return.
+ * main - prints its name, followed by a new line.
+ * @argc: number of command line arguments.
+ * @argv: array that contains the program command line arguments.
+ * Return: 0 - success.
  */
-void _puts_recursion(char *s)
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	if (*s != '\0')
-	{
-		_putchar(*s);
-		_puts_recursion(s + 1);
-	}
-	else
-		_putchar('\n');
+	printf("%s\n", argv[0]);
+	return (0);
 }
